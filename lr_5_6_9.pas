@@ -2,7 +2,6 @@
 var
   A: array[1..20] of integer;
   i, minIndex, firstIndex: integer;
-  
 begin 
   for i := 1 to 20 do
     A[i] := random(100) - 100; 

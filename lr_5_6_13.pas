@@ -5,6 +5,7 @@ var
 begin
   for i := 1 to 20 do
     read(a[i]);
+  writeln(a);
   maxIndex := 1;
   minIndex := 1;
   for i := 2 to 20 do
