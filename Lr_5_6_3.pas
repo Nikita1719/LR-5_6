@@ -5,6 +5,7 @@ var
   begin 
   for i:=1 to 20 do
   a[i]:=random(65)-52;
+  writeln (a);
    max := a[1];
   maxIndex := 1;
   min := 0;
